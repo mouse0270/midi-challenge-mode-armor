@@ -1,6 +1,8 @@
 # Version 1.0.0 - Initial Release
 This module allows you to see the Armor Class, Evasion Class and Armor Resistance on the actor sheet when using Midi QOL Optional Setting `Challenge Mode Armor`.
 
+![image](https://user-images.githubusercontent.com/564874/152419970-d9bc3e5e-a7af-46fc-b2d0-fb22faf0fe28.png)
+
 ## What is Challenge Mode Armor Class?
 ***Note** Most of this information is take from Midi QOL Readme*
 
