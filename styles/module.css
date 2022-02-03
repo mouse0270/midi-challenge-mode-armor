@@ -1,0 +1,79 @@
+#midi-challenge-mode-armor-display {
+    list-style-type: none;
+    margin: 0rem;
+    padding: .25rem .5rem;
+    font-family: "Signika", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+    height: 70px;
+}
+#midi-challenge-mode-armor-display  li {
+    display: flex;
+    justify-content: space-between;
+}
+#midi-challenge-mode-armor-display  li label,
+#midi-challenge-mode-armor-display  li span {
+    font-family: "Modesto Condensed", "Palatino Linotype", serif;
+    font-weight: 700;
+    font-size: inherit;
+    white-space: nowrap;
+    height: auto;
+    line-height: normal;
+}
+#midi-challenge-mode-armor-display  li label {
+    color: #4b4a44;
+}
+#midi-challenge-mode-armor-display:hover ~ .attribute-value.attributable .property-attribution.tooltip {
+    display: block;
+    height: auto;
+    font-size: 12px;
+    top: 0px;
+    border-width: 1px;
+}
+
+#midi-challenge-mode-armor-display ~ .attribute-name.box-title,
+#midi-challenge-mode-armor-display ~ .attribute-value.attributable,
+#midi-challenge-mode-armor-display ~ .attribute-value > *,
+#midi-challenge-mode-armor-display ~ .attribute-footer {
+    font-size: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+}
+#midi-challenge-mode-armor-display ~ .attribute-name.box-title .config-button {
+    top: -70px;
+    right: 0px;
+}
+
+/* ────────────────────────────── ⋆⋅☆⋅⋆ ────────────────────────────── */
+/* Tidy5e Sheet */
+/* ────────────────────────────── ⋆⋅☆⋅⋆ ────────────────────────────── */
+.tidy5e.sheet.actor #midi-challenge-mode-armor-display {
+    margin-left: -5px;
+    margin-right: -5px;
+    width: 70px;
+}
+.tidy5e.sheet.actor #midi-challenge-mode-armor-display li span {
+    position: relative;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    transform: none;
+    width: auto;
+}
+.tidy5e.sheet.actor #midi-challenge-mode-armor-display li:last-child {
+    display: none;
+}
+.tidy5e.sheet.actor #midi-challenge-mode-armor-display ~ svg {
+    display: none;
+}
+.tidy5e.sheet.actor #midi-challenge-mode-armor-display:hover ~ .attribute-value.attributable .property-attribution.tooltip {
+    display: block;
+    font-size: 12px;
+    height: auto;
+    top: 25px;
+    min-width: 130px;
+    border-width: 1px;
+}

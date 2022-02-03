@@ -4,15 +4,7 @@ import { MODULE } from './_module.mjs';
 // IMPORT SETTINGS -> Settings Register on Hooks.Setup
 import './_settings.mjs';
 
-import { LOGIC } from './module.mjs';
-
-/* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
-// socketlib HOOKS -> socketlib.ready
-/* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
-Hooks.once('socketlib.ready', () => {
-	MODULE.debug('SOCKETLIB Ready - SOCKET'); // WONT REGISTER CAUSE CALL HAPPENS WAY TO EARLY
-	LOGIC.registerSocketLib();
-});
+import { MIDICMA } from './module.mjs';
 
 /* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
 // 🧙 DEVELOPER MODE HOOKS -> devModeReady
@@ -31,5 +23,6 @@ Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
 });
 
 /* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
-// FOUNDRY HOOKS -> BIND HOOKS
+// FOUNDRY HOOKS -> TESTING
 /* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
+Hooks.on('renderActorSheet5eCharacter', MIDICMA.renderActorSheet5eCharacter);

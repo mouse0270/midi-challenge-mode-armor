@@ -1,10 +1,10 @@
 {
-  "name": "MODULE-ID",
-  "title": "MODULE-TITLE",
-  "description": "MODULE-DESCRIPTION",
+  "name": "midi-challenge-mode-armor",
+  "title": "Midi QOL - Challenge Mode Armor Display",
+  "description": "Displays Midi QOL Challenge Mode Armor Values on the default 5e and TidyUI Character Sheets",
   "version": "1.0.0",
   "library": false,
-  "socket": false,
+  "socket": true,
   "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
@@ -29,7 +29,11 @@
       "path": "languages/en.json"
     }
   ],
-  "dependencies": [ ],
+  "dependencies": [
+    {
+    "name": "midi-qol", "type": "module"
+    }
+  ],
   "deprecated": { },
   "esmodules": [ "/scripts/init.mjs" ],
   "scripts": [ ],
@@ -41,7 +45,7 @@
   "changelog": "https://raw.githubusercontent.com/mouse0270/module-credits/master/CHANGELOG.md",
   "license": "https://github.com/mouse0270/module-credits/blob/master/LICENSE",
   "bugs": "https://github.com/mouse0270/module-credits/issues",
-  "media": [ ],
+  "media": [],
   "flags": {
     "allowBugReporter": true
   }

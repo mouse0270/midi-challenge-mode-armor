@@ -1,6 +1,6 @@
 let _STORE = {};
 export class MODULE {
-	static ID = 'MODULE-ID';
+	static ID = 'midi-challenge-mode-armor';
 	static OPTIONS = {
 		background: '#7030A0',
 		color: '#fff',
