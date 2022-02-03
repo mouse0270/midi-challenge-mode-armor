@@ -4,9 +4,9 @@ This module allows you to see the Armor Class, Evasion Class and Armor Resistanc
 ## What is Challenge Mode Armor Class?
 ***Note** Most of this information is take from Midi QOL Readme*
 
-Implements the Challenge Mode AC rules, characters have an Evasion Class (EC) and an Armor Resistance (AR). In the base mode your EC is 10 + the dex mod appied to your AC (based on armor type used) + any shield AC you have.
+Implements the Challenge Mode AC rules, characters have an Evasion Class (EC) and an Armor Resistance (AR). In the base mode your EC is 10 + the dex mod applied to your AC (based on armor type used) + any shield AC you have.
 
-Your AR is equal to your AC - applied dex mod, i.e. the part of your AC that is not nimbleness. This means that tanks, high armor class but weighed down take more glancing damage, but that damage is mitigated by your AR. The logic of the system is that part of hitting is having the blow land  on the targget, which is measured by the EC which rewards nimble characters and secondly damage reduction done when a glancing blow does not get "through the armor" and so the damage is reduced by the Armor Resistance.
+Your AR is equal to your AC - applied dex mod, i.e. the part of your AC that is not nimbleness. This means that tanks, high armor class but weighed down take more glancing damage, but that damage is mitigated by your AR. The logic of the system is that part of hitting is having the blow land  on the target, which is measured by the EC which rewards nimble characters and secondly damage reduction done when a glancing blow does not get "through the armor" and so the damage is reduced by the Armor Resistance.
 
 For example, if an attack roll:
 - Is less than your EC, then the attack misses
