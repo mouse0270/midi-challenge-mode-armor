@@ -1,0 +1,48 @@
+{
+  "name": "MODULE-ID",
+  "title": "MODULE-TITLE",
+  "description": "MODULE-DESCRIPTION",
+  "version": "1.0.0",
+  "library": false,
+  "socket": false,
+  "manifestPlusVersion": "1.2.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "author": "mouse0270",
+  "authors": [
+    {
+      "name": "Mouse0270",
+      "url": "https://github.com/mouse0270/module-credits",
+      "discord": "Mouse0270#0270",
+      "twitter": "Mouse0270",
+      "patreon": "Mouse0270",
+      "github": "Mouse0270",
+      "ko-fi": "Mouse0270",
+      "reddit": "u/Mouse0270",
+      "email": "rmcintosh@websitesbyfatdudes.com"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "dependencies": [ ],
+  "deprecated": { },
+  "esmodules": [ "/scripts/init.mjs" ],
+  "scripts": [ ],
+  "styles": [ "/styles/module.css" ],
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
+  "readme": "https://github.com/mouse0270/module-credits/blob/master/README.md",
+  "changelog": "https://raw.githubusercontent.com/mouse0270/module-credits/master/CHANGELOG.md",
+  "license": "https://github.com/mouse0270/module-credits/blob/master/LICENSE",
+  "bugs": "https://github.com/mouse0270/module-credits/issues",
+  "media": [ ],
+  "flags": {
+    "allowBugReporter": true
+  }
+}
