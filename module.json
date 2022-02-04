@@ -41,10 +41,10 @@
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
-  "readme": "https://github.com/mouse0270/module-credits/blob/master/README.md",
-  "changelog": "https://raw.githubusercontent.com/mouse0270/module-credits/master/CHANGELOG.md",
-  "license": "https://github.com/mouse0270/module-credits/blob/master/LICENSE",
-  "bugs": "https://github.com/mouse0270/module-credits/issues",
+  "readme": "https://github.com/mouse0270/midi-challenge-mode-armor/blob/master/README.md",
+  "changelog": "https://raw.githubusercontent.com/mouse0270/midi-challenge-mode-armor/master/CHANGELOG.md",
+  "license": "https://github.com/mouse0270/midi-challenge-mode-armor/blob/master/LICENSE",
+  "bugs": "https://github.com/mouse0270/midi-challenge-mode-armor/issues",
   "media": [],
   "flags": {
     "allowBugReporter": true
