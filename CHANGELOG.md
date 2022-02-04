@@ -1,3 +1,6 @@
+# Version 1.0.2 - Patched Render Call
+- Fixed render hook to update UI if actor sheet is update such as adding an item.
+
 # Version 1.0.1 - Fixed Manifest
 - Fixed Manifest Fields pointing to Module Management+ URLS.
 - Removed `socket: true` from Manifest as its not needed for this module.
