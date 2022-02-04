@@ -4,7 +4,6 @@ import { MODULE } from './_module.mjs';
 // DEFINE MODULE CLASS
 export class MIDICMA {
 	static renderActorSheet5e = (app, element, options) => {
-		MODULE.log(app, element, options)
 		let $element = $(element);
 		let $ac = $element.find('.attribute.armor');
 		let attributes = options?.actor?.data?.attributes ?? false;
