@@ -25,4 +25,4 @@ Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
 /* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
 // FOUNDRY HOOKS -> TESTING
 /* ─────────────── ⋆⋅☆⋅⋆ ─────────────── */
-Hooks.on('renderActorSheet5eCharacter', MIDICMA.renderActorSheet5eCharacter);
+Hooks.on('renderActorSheet5e', MIDICMA.renderActorSheet5e);

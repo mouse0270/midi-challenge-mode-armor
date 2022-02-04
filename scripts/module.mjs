@@ -3,14 +3,15 @@ import { MODULE } from './_module.mjs';
 
 // DEFINE MODULE CLASS
 export class MIDICMA {
-	static renderActorSheet5eCharacter = (app, element, options) => {
+	static renderActorSheet5e = (app, element, options) => {
+		MODULE.log(app, element, options)
 		let $element = $(element);
 		let $ac = $element.find('.attribute.armor');
 		let attributes = options?.actor?.data?.attributes ?? false;
 
 		// Check if Player is using Callenge Mode Armor Setting from Midi
 		if (game.settings?.get('midi-qol', 'ConfigSettings')?.optionalRules?.challengeModeArmor ?? false) {
-			if ($element.hasClass('tidy5e')) $ac = $element.find('.header-attribute.ac-display');
+			if (app.options.classes.includes('tidy5e')) $ac = $element.find('.header-attribute.ac-display');
 		
 			if (attributes?.ac?.EC ?? false) {
 				let $challengeArmor = $(`<ul id="${MODULE.ID}-display">
