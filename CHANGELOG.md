@@ -1,5 +1,6 @@
 # Version 1.0.1 - Fixed Manifest
 - Fixed Manifest Fields pointing to Module Management+ URLS.
+- Removed `socket: true` from Manifest as its not needed for this module.
 
 # Version 1.0.0 - Initial Release
 This module allows you to see the Armor Class, Evasion Class and Armor Resistance on the actor sheet when using Midi QOL Optional Setting `Challenge Mode Armor`.

@@ -4,7 +4,7 @@
   "description": "This module allows you to see the Armor Class, Evasion Class and Armor Resistance on the actor sheet when using Midi QOL Optional Setting Challenge Mode Armor.",
   "version": "1.0.0",
   "library": false,
-  "socket": true,
+  "socket": false,
   "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
