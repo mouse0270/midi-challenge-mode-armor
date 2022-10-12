@@ -1,3 +1,6 @@
+# Version 1.0.3 - v10 Support
+- Updated Module to avoid warnings when used in Version 10 of Foundry
+
 # Version 1.0.2 - Patched Render Call
 - Fixed render hook to update UI if actor sheet is update such as adding an item.
 

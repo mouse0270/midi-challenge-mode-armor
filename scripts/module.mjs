@@ -6,7 +6,7 @@ export class MIDICMA {
 	static renderActorSheet5e = (app, element, options) => {
 		let $element = $(element);
 		let $ac = $element.find('.attribute.armor');
-		let attributes = options?.actor?.data?.attributes ?? false;
+		let attributes = (options?.actor?.system?.attributes ?? options?.actor?.data?.attributes) ?? false;
 
 		// Check if Player is using Callenge Mode Armor Setting from Midi
 		if (game.settings?.get('midi-qol', 'ConfigSettings')?.optionalRules?.challengeModeArmor ?? false) {

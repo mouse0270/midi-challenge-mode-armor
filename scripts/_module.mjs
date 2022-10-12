@@ -30,7 +30,7 @@ export class MODULE {
 	}
 
 	static localize(stringId, data = {}) {
-		return isObjectEmpty(data.hash ?? {}) ? game.i18n.localize(`${this.ID}.${stringId}`) : game.i18n.format(`${this.ID}.${stringId}`, data);
+		return (isEmpty ?? isObjectEmpty)(data.hash ?? {}) ? game.i18n.localize(`${this.ID}.${stringId}`) : game.i18n.format(`${this.ID}.${stringId}`, data);
 	}
 
 	static CONSOLE = (LOG_LEVEL, ...args) => {

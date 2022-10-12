@@ -8,18 +8,31 @@
   "manifestPlusVersion": "1.2.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
+  "compatibility": {
+		"minimum": 9,
+		"verified": 10,
+		"maximum": 10
+	},
   "author": "mouse0270",
   "authors": [
     {
-      "name": "Mouse0270",
-      "url": "https://github.com/mouse0270/module-credits",
-      "discord": "Mouse0270#0270",
+			"name": "Mouse0270",
+			"url": "https://github.com/mouse0270/",
+			"email": "rmcintosh@websitesbyfatdudes.com",
+			"discord": "Mouse0270#0270",
+
+			"flags": {
+				"twitter": "Mouse0270",
+				"patreon": "Mouse0270",
+				"github": "Mouse0270",
+				"ko-fi": "Mouse0270",
+				"reddit": "u/Mouse0270"
+			},
       "twitter": "Mouse0270",
       "patreon": "Mouse0270",
       "github": "Mouse0270",
       "ko-fi": "Mouse0270",
-      "reddit": "u/Mouse0270",
-      "email": "rmcintosh@websitesbyfatdudes.com"
+      "reddit": "u/Mouse0270"
     }
   ],
   "languages": [
@@ -29,6 +42,13 @@
       "path": "languages/en.json"
     }
   ],
+  "relationships": {
+    "requires": [{
+			"id": "midi-qol",
+      "type": "module",
+			"reason": "Gets Challenge Rating Data from MIDI-QOL"
+		}]
+  },
   "dependencies": [
     {
     "name": "midi-qol", "type": "module"
