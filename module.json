@@ -10,8 +10,7 @@
   "compatibleCoreVersion": "9",
   "compatibility": {
 		"minimum": 9,
-		"verified": 10,
-		"maximum": 10
+		"verified": 11
 	},
   "author": "mouse0270",
   "authors": [

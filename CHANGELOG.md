@@ -1,3 +1,7 @@
+# Version 1.0.4 - v11 Support and Forward
+- Removed Max Version from package manifest
+- Updated Verified for v11
+
 # Version 1.0.3 - v10 Support
 - Updated Module to avoid warnings when used in Version 10 of Foundry
 
